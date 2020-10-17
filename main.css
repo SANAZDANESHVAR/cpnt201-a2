@@ -14,7 +14,7 @@
      font-size: clamp(14px, 3vw, 22px);
     }
     
-    body img {
+  img {
       display: block;
       width: 75vw;
       max-width: 1500px;
@@ -77,9 +77,7 @@
     }
 
      /*Media Queries.in ordr to be responsive*/
-    @media (orientation: landscape) {
-   section .home-home{
-      flex-direction: row;
+    @media (orientation: landscape) 
 
       width:100vw;
       min-height:100vh;
